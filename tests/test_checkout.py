@@ -31,7 +31,7 @@ def test_tc04_checkout_flow(driver):
 
     LOGGER.info("Step: fill checkout information")
     info = CheckoutInfoPage(driver)
-    info.fill_and_continue("Nursaya", "B", "010000")
+    info.fill_and_continue("Yevhenii", "Biloshchytskyi", "010000")
 
     overview = CheckoutOverviewPage(driver)
     LOGGER.info("Checkpoint: total label exists")
