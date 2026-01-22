@@ -6,8 +6,7 @@
 1) **Test lifecycle management**: setup/teardown implemented with PyTest fixtures (`tests/conftest.py`)
 2) **Logging**: Python `logging` framework with file output (`logs/automation.log`)
 3) **HTML report**: `pytest-html` (`reports/report.html`)
-4) **Screenshots on failure**: automatic capture via PyTest hook (`tests/conftest.py`)
-5) **Minimum 3 test cases**: 4 automated test cases included
+4) **Minimum 3 test cases**: 4 automated test cases included
 
 ## Project Structure
 ```
@@ -42,5 +41,4 @@ python -m pytest
 
 ## Outputs
 - HTML report: `reports/report.html`
-- Screenshots on failure: `reports/screenshots/`
 - Log file: `logs/automation.log`
